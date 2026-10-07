@@ -14,10 +14,10 @@ I use this space to share study projects, improve their interfaces and document 
 
 ## Selected study projects
 
-| Project | Focus | Code |
+| Project | Focus | Links |
 | --- | --- | --- |
-| **JavaScript Calculator** | Arithmetic, browser interactions and interface design. | [Explore →](https://github.com/LuizChockt/CalculadoraAprendizadoJS) |
-| **School Grade Calculator** | Average calculations, input validation and clear feedback. | [Explore →](https://github.com/LuizChockt/Media-Escolar-Calc) |
+| **JavaScript Calculator** | Arithmetic, browser interactions and interface design. | [Code](https://github.com/LuizChockt/CalculadoraAprendizadoJS) · [Live demo →](https://luizchockt.github.io/CalculadoraAprendizadoJS/) |
+| **School Grade Calculator** | Average calculations, input validation and clear feedback. | [Code](https://github.com/LuizChockt/Media-Escolar-Calc) · [Live demo →](https://luizchockt.github.io/Media-Escolar-Calc/) |
 
 ## Technical foundation
 

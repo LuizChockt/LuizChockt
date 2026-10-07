@@ -14,10 +14,10 @@ Uso este espaço para compartilhar projetos de estudo, melhorar suas interfaces 
 
 ## Projetos de estudo selecionados
 
-| Projeto | Foco | Código |
+| Projeto | Foco | Links |
 | --- | --- | --- |
-| **Calculadora JavaScript** | Operações matemáticas, interação no navegador e construção de interface. | [Explorar →](https://github.com/LuizChockt/CalculadoraAprendizadoJS) |
-| **Calculadora de Média Escolar** | Cálculo de médias, validação de entradas e feedback claro. | [Explorar →](https://github.com/LuizChockt/Media-Escolar-Calc) |
+| **Calculadora JavaScript** | Operações matemáticas, interação no navegador e construção de interface. | [Código](https://github.com/LuizChockt/CalculadoraAprendizadoJS) · [Demo →](https://luizchockt.github.io/CalculadoraAprendizadoJS/) |
+| **Calculadora de Média Escolar** | Cálculo de médias, validação de entradas e feedback claro. | [Código](https://github.com/LuizChockt/Media-Escolar-Calc) · [Demo →](https://luizchockt.github.io/Media-Escolar-Calc/) |
 
 ## Base técnica
 
