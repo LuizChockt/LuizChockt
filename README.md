@@ -1,41 +1,36 @@
-Hello Everyone 😃, I’m @LuizChockt, A postgraduate lawyer, enthusiast for GitHub and open source in transition from user to programmer.
-
 <picture>
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=LuizChockt&show_icons=true&theme=dark"
-    media="(prefers-color-scheme: dark)"
-  />
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=LuizChockt&show_icons=true"
-    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-  />
-  <img src="https://github-readme-stats.vercel.app/api?username=LuizChockt&show_icons=true" alt="GitHub Stats" width="400" height="195" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
+  <img src="./assets/banner-light.svg" alt="Luiz Chockt — Web development. JavaScript, HTML and CSS. Systems Analysis and Development graduate based in Brazil." width="1280">
 </picture>
 
-<picture>
-  <source 
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=LuizChockt&theme=dark"
-    media="(prefers-color-scheme: dark)"
-  />
-  <source
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=LuizChockt"
-    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LuizChockt&show_icons=true" alt="Top Languages" width="400" height="195" />
-</picture>
+[Português](./README.pt-BR.md) · [Repositories](https://github.com/LuizChockt?tab=repositories)
 
-<div style="display: flex; justify-content: center;">
-  <a href="#" style="margin: 0 10px;">
-    <img alt="JS" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" draggable="false" onclick="return false;"/>
-  </a>
-  <a href="#" style="margin: 0 10px;">
-    <img alt="HTML5" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" draggable="false" onclick="return false;"/>
-  </a>
-</div>
+## Hi, I'm Luiz.
 
+I'm a **Systems Analysis and Development (ADS) graduate** based in Brazil, focused on **web development with JavaScript, HTML and CSS**.
 
+I use this space to share study projects, improve their interfaces and document the decisions behind the code.
 
+## Selected study projects
 
+| Project | Focus | Code |
+| --- | --- | --- |
+| **JavaScript Calculator** | Arithmetic, browser interactions and interface design. | [Explore →](https://github.com/LuizChockt/CalculadoraAprendizadoJS) |
+| **School Grade Calculator** | Average calculations, input validation and clear feedback. | [Explore →](https://github.com/LuizChockt/Media-Escolar-Calc) |
 
+## Technical foundation
 
+**JavaScript** for application logic and browser interactions. **HTML** for structure. **CSS** for layout and presentation.
 
+My current focus is strengthening these fundamentals through small, practical web projects.
+
+<details>
+<summary><strong>Background & direction</strong></summary>
+
+- Graduate in Systems Analysis and Development (ADS).
+- Based in Brazil.
+- Building a portfolio for opportunities in web development.
+- Interested in practical tools, clear interfaces and well-documented code.
+
+</details>
