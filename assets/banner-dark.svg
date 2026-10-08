@@ -40,10 +40,10 @@
     <text x="54" y="29" fill="#E9ECE8" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">HTML</text>
   </g>
 
-  <line x1="530" y1="193" x2="530" y2="236" stroke="#52615D" stroke-width="1"/>
+  <line x1="548" y1="193" x2="548" y2="236" stroke="#52615D" stroke-width="1"/>
 
   <!-- CSS -->
-  <g transform="translate(560 192)">
+  <g transform="translate(576 192)">
     <path d="M2 0h36l-3 38-15 5-15-5z" fill="#1572B6"/>
     <path d="M20 3h15l-3 32-12 4z" fill="#33A9DC"/>
     <path d="M10 10h21l-1 6H16l1 5h12l-2 13-7 3-9-3-1-8h6l1 4 3 1 3-1 .5-4H10z" fill="#F7F6F1"/>
@@ -51,10 +51,10 @@
   </g>
 
   <text x="55" y="304" fill="#A8B5B2" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2.1">DEVELOPER</text>
-  <rect x="149" y="292" width="2" height="14" fill="#D4FF63"/>
-  <text x="170" y="304" fill="#A8B5B2" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2.1">PROBLEM SOLVER</text>
-  <rect x="310" y="292" width="2" height="14" fill="#D4FF63"/>
-  <text x="331" y="304" fill="#A8B5B2" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2.1">CONTINUOUS LEARNING</text>
+  <rect x="154" y="291" width="2" height="16" fill="#D4FF63"/>
+  <text x="176" y="304" fill="#A8B5B2" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2.1">PROBLEM SOLVER</text>
+  <rect x="320" y="291" width="2" height="16" fill="#D4FF63"/>
+  <text x="342" y="304" fill="#A8B5B2" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2.1">CONTINUOUS LEARNING</text>
 
   <line x1="850" y1="52" x2="850" y2="308" stroke="#465250" stroke-width="1"/>
 
