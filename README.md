@@ -1,16 +1,18 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
-  <img src="./assets/banner-light.svg" alt="Luiz Chockt — Web development. JavaScript, HTML and CSS. Systems Analysis and Development graduate based in Brazil." width="1280">
+  <img src="./assets/banner-light.svg" alt="Luiz Chockt — Software development with Python, JavaScript, HTML and CSS. Systems Analysis and Development graduate based in Brazil." width="1280">
 </picture>
 
 [Português](./README.pt-BR.md) · [Repositories](https://github.com/LuizChockt?tab=repositories)
 
 ## Hi, I'm Luiz.
 
-I'm a **Systems Analysis and Development (ADS) graduate** based in Brazil, focused on **web development with JavaScript, HTML and CSS**.
+I'm a **Systems Analysis and Development (ADS) graduate** based in Brazil, building practical software projects with **Python and web technologies**.
 
-I use this space to share study projects, improve their interfaces and document the decisions behind the code.
+I use **Python** for automation, command-line tools and file processing, and **JavaScript, HTML and CSS** for browser-based projects and interfaces.
+
+I use this space to turn practical problems into small, well-documented projects and strengthen my software development fundamentals.
 
 ## Selected study projects
 
@@ -21,16 +23,16 @@ I use this space to share study projects, improve their interfaces and document 
 
 ## Technical foundation
 
-**JavaScript** for application logic and browser interactions. **HTML** for structure. **CSS** for layout and presentation.
+**Python** for automation, CLI tools and file processing. **JavaScript** for application logic and browser interactions. **HTML** for structure. **CSS** for layout and presentation.
 
-My current focus is strengthening these fundamentals through small, practical web projects.
+My current focus is building small, practical projects across **Python and web development**, with emphasis on readable code, testing and documentation.
 
 <details>
 <summary><strong>Background & direction</strong></summary>
 
 - Graduate in Systems Analysis and Development (ADS).
 - Based in Brazil.
-- Building a portfolio for opportunities in web development.
-- Interested in practical tools, clear interfaces and well-documented code.
+- Building a portfolio for software development opportunities.
+- Interested in automation, practical tools, clear interfaces and well-documented code.
 
 </details>
