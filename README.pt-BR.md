@@ -1,16 +1,18 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
-  <img src="./assets/banner-light.svg" alt="Luiz Chockt — Desenvolvimento web. JavaScript, HTML e CSS. Formação em Análise e Desenvolvimento de Sistemas. Brasil." width="1280">
+  <img src="./assets/banner-light.svg" alt="Luiz Chockt — Desenvolvimento de software com Python, JavaScript, HTML e CSS. Formação em Análise e Desenvolvimento de Sistemas. Brasil." width="1280">
 </picture>
 
 [English](./README.md) · [Repositórios](https://github.com/LuizChockt?tab=repositories)
 
 ## Olá, sou o Luiz.
 
-Sou formado em **Análise e Desenvolvimento de Sistemas (ADS)** e tenho foco em **desenvolvimento web com JavaScript, HTML e CSS**.
+Sou formado em **Análise e Desenvolvimento de Sistemas (ADS)** e desenvolvo projetos práticos de software com **Python e tecnologias web**.
 
-Uso este espaço para compartilhar projetos de estudo, melhorar suas interfaces e documentar as decisões por trás do código.
+Uso **Python** para automação, ferramentas de linha de comando e processamento de arquivos, e **JavaScript, HTML e CSS** em projetos para navegador e construção de interfaces.
+
+Uso este espaço para transformar problemas práticos em projetos pequenos e bem documentados, enquanto fortaleço meus fundamentos em desenvolvimento de software.
 
 ## Projetos de estudo selecionados
 
@@ -21,16 +23,16 @@ Uso este espaço para compartilhar projetos de estudo, melhorar suas interfaces 
 
 ## Base técnica
 
-**JavaScript** para a lógica e a interação no navegador. **HTML** para a estrutura. **CSS** para o layout e a apresentação.
+**Python** para automação, ferramentas CLI e processamento de arquivos. **JavaScript** para lógica e interação no navegador. **HTML** para estrutura. **CSS** para layout e apresentação.
 
-Meu foco atual é fortalecer esses fundamentos em pequenos projetos web práticos.
+Meu foco atual é construir pequenos projetos práticos em **Python e desenvolvimento web**, com atenção a código legível, testes e documentação.
 
 <details>
 <summary><strong>Formação e direção</strong></summary>
 
 - Formação concluída em Análise e Desenvolvimento de Sistemas.
 - Brasil.
-- Construção de portfólio para oportunidades em desenvolvimento web.
-- Interesse em ferramentas práticas, interfaces claras e código bem documentado.
+- Construção de portfólio para oportunidades em desenvolvimento de software.
+- Interesse em automação, ferramentas práticas, interfaces claras e código bem documentado.
 
 </details>
