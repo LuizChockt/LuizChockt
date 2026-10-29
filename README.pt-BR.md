@@ -1,38 +1,61 @@
 <picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/banner-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="./assets/banner-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
-  <img src="./assets/banner-light.svg" alt="Luiz Chockt — Desenvolvimento de software com Python, JavaScript, HTML e CSS. Formação em Análise e Desenvolvimento de Sistemas. Brasil." width="1280">
+  <img src="./assets/banner-light.svg" alt="Luiz Chockt — ferramentas Python, automação, aplicações de linha de comando e desenvolvimento web." width="1200">
 </picture>
 
-[English](./README.md) · [Repositórios](https://github.com/LuizChockt?tab=repositories)
+[English](./README.md) · [Projetos](#projetos-em-destaque) · [Repositórios](https://github.com/LuizChockt?tab=repositories)
 
-## Olá, sou o Luiz.
+# Olá, sou o Luiz.
 
-Sou formado em **Análise e Desenvolvimento de Sistemas (ADS)** e desenvolvo projetos práticos de software com **Python e tecnologias web**.
+Desenvolvo **ferramentas Python para Markdown, organização de arquivos e automação**, além de projetos web com **JavaScript, HTML e CSS**.
 
-Uso **Python** para automação, ferramentas de linha de comando e processamento de arquivos, e **JavaScript, HTML e CSS** em projetos para navegador e construção de interfaces.
+Sou formado em Análise e Desenvolvimento de Sistemas e moro no Brasil. Minha formação e experiência em Direito trazem problemas práticos para resolver com software: documentos, informações e trabalho repetitivo.
 
-Uso este espaço para transformar problemas práticos em projetos pequenos e bem documentados, enquanto fortaleço meus fundamentos em desenvolvimento de software.
+## Projetos em destaque
 
-## Projetos de estudo selecionados
+### [Markdown Link Auditor](https://github.com/LuizChockt/markdown-link-auditor)
 
-| Projeto | Foco | Links |
-| --- | --- | --- |
-| **Calculadora JavaScript** | Operações matemáticas, interação no navegador e construção de interface. | [Código](https://github.com/LuizChockt/CalculadoraAprendizadoJS) · [Demo →](https://luizchockt.github.io/CalculadoraAprendizadoJS/) |
-| **Calculadora de Média Escolar** | Cálculo de médias, validação de entradas e feedback claro. | [Código](https://github.com/LuizChockt/Media-Escolar-Calc) · [Demo →](https://luizchockt.github.io/Media-Escolar-Calc/) |
+Localiza referências locais quebradas, anexos ausentes, links ambíguos e possíveis notas órfãs em bases Markdown. Aceita CommonMark e wikilinks do Obsidian, com relatórios determinísticos em texto e JSON.
 
-## Base técnica
+**Python · markdown-it-py · pytest · GitHub Actions**
 
-**Python** para automação, ferramentas CLI e processamento de arquivos. **JavaScript** para lógica e interação no navegador. **HTML** para estrutura. **CSS** para layout e apresentação.
+Leitura sem alterar notas, resolução com tratamento de Unicode e limites explícitos de acesso ao sistema de arquivos. URLs externas são contadas, sem consulta HTTP.
 
-Meu foco atual é construir pequenos projetos práticos em **Python e desenvolvimento web**, com atenção a código legível, testes e documentação.
+[Código e início rápido](https://github.com/LuizChockt/markdown-link-auditor#quick-start) · [Relatório de exemplo](https://github.com/LuizChockt/markdown-link-auditor/blob/main/examples/reports/sample-report.txt) · [CI](https://github.com/LuizChockt/markdown-link-auditor/actions/workflows/tests.yml)
 
-<details>
-<summary><strong>Formação e direção</strong></summary>
+### [Legal Markdown Organizer](https://github.com/LuizChockt/legal-markdown-organizer)
 
-- Formação concluída em Análise e Desenvolvimento de Sistemas.
-- Brasil.
-- Construção de portfólio para oportunidades em desenvolvimento de software.
-- Interesse em automação, ferramentas práticas, interfaces claras e código bem documentado.
+Organiza arquivos jurídicos Markdown por regras de nomes e um subconjunto de metadados front matter. Permite conferir os movimentos com dry-run, preserva os bytes dos documentos e evita sobrescrever destinos existentes.
 
-</details>
+**Biblioteca padrão Python · pytest · GitHub Actions**
+
+Uma CLI local que aproxima rotinas documentais jurídicas e automação prática. A classificação é determinística; a ferramenta não interpreta argumentos jurídicos nem reescreve links.
+
+[Código e início rápido](https://github.com/LuizChockt/legal-markdown-organizer#quick-start) · [Exemplos fictícios](https://github.com/LuizChockt/legal-markdown-organizer/tree/main/examples) · [CI](https://github.com/LuizChockt/legal-markdown-organizer/actions/workflows/tests.yml)
+
+### Projetos web
+
+Projetos anteriores de aprendizagem, evoluídos com interfaces responsivas, separação da lógica e testes com Node.js.
+
+- **[Calculadora JavaScript](https://github.com/LuizChockt/CalculadoraAprendizadoJS)** — parser aritmético, entrada por teclado e histórico da sessão. [Demonstração](https://luizchockt.github.io/CalculadoraAprendizadoJS/).
+- **[Calculadora de Média Escolar](https://github.com/LuizChockt/Media-Escolar-Calc)** — médias ponderadas, validação de entradas e critérios configuráveis. [Demonstração](https://luizchockt.github.io/Media-Escolar-Calc/).
+
+## Ferramentas que utilizo
+
+**Python · JavaScript · HTML · CSS · Git · Markdown**
+
+**pytest** nos testes de comportamento em Python, **executor de testes do Node.js** na lógica web e **GitHub Actions** para integração contínua.
+
+## Como desenvolvo
+
+- Separo interpretação, regras e operações em arquivos para testar cada parte.
+- Verifico CLIs reais, casos de borda e comportamento do sistema de arquivos com dados fictícios.
+- Documento comandos executáveis, escopo e limitações junto ao código.
+- Mantenho o processamento de documentos local e as dependências proporcionais ao problema.
+
+Meu foco atual é automação prática, ferramentas CLI e interfaces web claras.
+
+[Explorar repositórios](https://github.com/LuizChockt?tab=repositories) · [Manutenção do perfil](./docs/MAINTENANCE.md)
