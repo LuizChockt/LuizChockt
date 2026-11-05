@@ -1,64 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc" xmlns="http://www.w3.org/2000/svg">
-  <title id="title">Luiz Chockt — Software Development</title>
-  <desc id="desc">Python, JavaScript, HTML and CSS. Software development portfolio by Luiz Chockt.</desc>
-
-  <rect width="1280" height="360" fill="#151B1D"/>
-  <path d="M1000 0h280v360h-280l112-112-112-112 112-112z" fill="#1A2224" opacity=".42"/>
-  <path d="M1110 0h170v92l-88 88 88 88v92h-92l-178-180z" fill="#20292B" opacity=".26"/>
-
-  <rect x="54" y="42" width="34" height="4" rx="2" fill="#D4FF63"/>
-  <text x="104" y="53" fill="#A8B5B2" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="2.3">SOFTWARE DEVELOPMENT</text>
-
-  <text x="54" y="160" fill="#F7F6F1" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="800" letter-spacing="-3">Luiz Chockt</text>
-
-  <!-- Python -->
-  <g transform="translate(55 191)">
-    <path d="M6 0h20c6 0 10 4 10 10v9H19c-7 0-11 4-11 10v3H3C1 32 0 30 0 28V12C0 5 2 1 6 0z" fill="#3776AB"/>
-    <circle cx="27" cy="7" r="2" fill="#F7F6F1"/>
-    <path d="M36 16h5c2 0 3 2 3 4v16c0 7-2 11-7 12H17c-6 0-10-4-10-10v-9h17c7 0 12-4 12-10z" fill="#FFD343"/>
-    <circle cx="16" cy="41" r="2" fill="#151B1D"/>
-    <text x="55" y="31" fill="#E9ECE8" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Python</text>
-  </g>
-
-  <line x1="195" y1="193" x2="195" y2="236" stroke="#52615D" stroke-width="1"/>
-
-  <!-- JavaScript -->
-  <g transform="translate(224 194)">
-    <rect width="36" height="36" rx="2" fill="#F7DF1E"/>
-    <text x="8" y="27" fill="#151B1D" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="800">JS</text>
-    <text x="51" y="26" fill="#E9ECE8" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">JavaScript</text>
-  </g>
-
-  <line x1="397" y1="193" x2="397" y2="236" stroke="#52615D" stroke-width="1"/>
-
-  <!-- HTML -->
-  <g transform="translate(427 192)">
-    <path d="M2 0h36l-3 38-15 5-15-5z" fill="#E44D26"/>
-    <path d="M20 3h15l-3 32-12 4z" fill="#F16529"/>
-    <path d="M10 10h21l-1 6H17l1 5h12l-1 13-9 3-9-3-1-8h6l1 4 4 1 4-1 .4-4H10z" fill="#F7F6F1"/>
-    <text x="54" y="29" fill="#E9ECE8" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">HTML</text>
-  </g>
-
-  <line x1="548" y1="193" x2="548" y2="236" stroke="#52615D" stroke-width="1"/>
-
-  <!-- CSS -->
-  <g transform="translate(576 192)">
-    <path d="M2 0h36l-3 38-15 5-15-5z" fill="#1572B6"/>
-    <path d="M20 3h15l-3 32-12 4z" fill="#33A9DC"/>
-    <path d="M10 10h21l-1 6H16l1 5h12l-2 13-7 3-9-3-1-8h6l1 4 3 1 3-1 .5-4H10z" fill="#F7F6F1"/>
-    <text x="54" y="29" fill="#E9ECE8" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">CSS</text>
-  </g>
-
-  <text x="55" y="304" fill="#A8B5B2" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2.1">DEVELOPER</text>
-  <rect x="154" y="291" width="2" height="16" fill="#D4FF63"/>
-  <text x="176" y="304" fill="#A8B5B2" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2.1">PROBLEM SOLVER</text>
-  <rect x="320" y="291" width="2" height="16" fill="#D4FF63"/>
-  <text x="342" y="304" fill="#A8B5B2" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2.1">CONTINUOUS LEARNING</text>
-
-  <line x1="850" y1="52" x2="850" y2="308" stroke="#465250" stroke-width="1"/>
-
-  <text x="900" y="217" fill="#F7F6F1" font-family="Arial, Helvetica, sans-serif" font-size="104" font-weight="800" letter-spacing="-7">L</text>
-  <text x="978" y="217" fill="#D4FF63" font-family="Arial, Helvetica, sans-serif" font-size="104" font-weight="800" letter-spacing="-7">C.</text>
-  <text x="934" y="280" fill="#A8B5B2" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" letter-spacing=".6">@LuizChockt</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+<title id="title">Luiz Chockt — Software development</title>
+<desc id="desc">Python tools, automation, command-line tools and web development.</desc>
+<rect x="0.5" y="0.5" width="1199" height="399" rx="20" fill="#11191D" stroke="#31443F"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<path d="M48 52h34m-34 10h17" stroke="#D4FF63" stroke-width="4" stroke-linecap="round"/>
+<text x="100" y="63" fill="#AABCB8" font-size="17" font-weight="700" letter-spacing="2">SOFTWARE DEVELOPMENT</text>
+<text x="1150" y="63" fill="#AABCB8" font-size="17" text-anchor="end">@LuizChockt</text>
+<text x="48" y="186" fill="#F2F5F3" font-size="86" font-weight="700" letter-spacing="-3">Luiz Chockt</text>
+<text x="52" y="245" fill="#F2F5F3" font-size="31">Python tools. Practical software.</text>
+<line x1="52" y1="289" x2="744" y2="289" stroke="#31443F"/>
+<text x="52" y="338" fill="#AABCB8" font-size="22">Automation</text>
+<circle cx="198" cy="330" r="3" fill="#D4FF63"/>
+<text x="220" y="338" fill="#AABCB8" font-size="22">CLI tools</text>
+<circle cx="335" cy="330" r="3" fill="#D4FF63"/>
+<text x="358" y="338" fill="#AABCB8" font-size="22">Web development</text>
+<path d="M873 111h235v235H873z" fill="none" stroke="#31443F"/>
+<path d="M846 138h235v235H846z" fill="none" stroke="#31443F"/>
+<path d="M890 158v113h61m110-113h-48v113h48" fill="none" stroke="#D4FF63" stroke-width="15" stroke-linecap="square"/>
+<rect x="1099" y="102" width="18" height="18" fill="#D4FF63"/>
+<text x="893" y="324" fill="#AABCB8" font-size="17" letter-spacing="2">BUILD / REFINE</text>
+</g>
 </svg>
