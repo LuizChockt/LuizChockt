@@ -16,6 +16,14 @@ I'm a Systems Analysis and Development graduate based in Brazil. My background i
 
 ## Selected projects
 
+### [ClipInbox](https://github.com/LuizChockt/clipinbox)
+
+Save clipboard text to a local Markdown inbox using a global Windows shortcut. Write quick notes from the system tray without opening Obsidian.
+
+**Python · Tkinter · Win32 · pytest · GitHub Actions**
+
+[Windows download](https://github.com/LuizChockt/clipinbox/releases/tag/v0.1.0) · [CI](https://github.com/LuizChockt/clipinbox/actions/workflows/ci-release.yml)
+
 ### [Markdown Link Auditor](https://github.com/LuizChockt/markdown-link-auditor)
 
 Find broken local references, missing attachments, ambiguous links and potential orphan notes in a Markdown knowledge base. Supports CommonMark and Obsidian wikilinks, with deterministic text and JSON reports.
@@ -32,7 +40,7 @@ Organize legal Markdown files using filename rules and a supported subset of fro
 
 **Python standard library · pytest · GitHub Actions**
 
-A local CLI connecting legal document workflows with practical automation. Classification is deterministic; the tool does not interpret legal arguments or rewrite links.
+Review local execution history and preview the undo of the latest eligible run. Undo restores unchanged documents and refuses to overwrite existing files.
 
 [Code & quick start](https://github.com/LuizChockt/legal-markdown-organizer#quick-start) · [Fictional examples](https://github.com/LuizChockt/legal-markdown-organizer/tree/main/examples) · [CI](https://github.com/LuizChockt/legal-markdown-organizer/actions/workflows/tests.yml)
 
@@ -56,6 +64,6 @@ Earlier learning projects, developed further with responsive interfaces, separat
 - Document working commands, scope and limitations alongside the code.
 - Keep document processing local and dependencies proportional to the task.
 
-My current focus is practical automation, CLI tools and clear web interfaces.
+My current focus is practical automation, desktop and command-line tools, and clear web interfaces.
 
 [Browse repositories](https://github.com/LuizChockt?tab=repositories) · [Background & profile maintenance](./docs/MAINTENANCE.md)

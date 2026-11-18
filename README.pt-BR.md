@@ -16,6 +16,14 @@ Sou formado em Análise e Desenvolvimento de Sistemas e moro no Brasil. Minha fo
 
 ## Projetos em destaque
 
+### [ClipInbox](https://github.com/LuizChockt/clipinbox)
+
+Salva o texto copiado em um Inbox Markdown local com um atalho global no Windows. Também permite escrever anotações rápidas pela bandeja, sem abrir o Obsidian.
+
+**Python · Tkinter · Win32 · pytest · GitHub Actions**
+
+[Download para Windows](https://github.com/LuizChockt/clipinbox/releases/tag/v0.1.0) · [CI](https://github.com/LuizChockt/clipinbox/actions/workflows/ci-release.yml)
+
 ### [Markdown Link Auditor](https://github.com/LuizChockt/markdown-link-auditor)
 
 Localiza referências locais quebradas, anexos ausentes, links ambíguos e possíveis notas órfãs em bases Markdown. Aceita CommonMark e wikilinks do Obsidian, com relatórios determinísticos em texto e JSON.
@@ -32,7 +40,7 @@ Organiza arquivos jurídicos Markdown por regras de nomes e um subconjunto de me
 
 **Biblioteca padrão Python · pytest · GitHub Actions**
 
-Uma CLI local que aproxima rotinas documentais jurídicas e automação prática. A classificação é determinística; a ferramenta não interpreta argumentos jurídicos nem reescreve links.
+Permite consultar o histórico local e simular o desfazer da última execução elegível. O desfazer restaura documentos intactos e recusa sobrescrever arquivos existentes.
 
 [Código e início rápido](https://github.com/LuizChockt/legal-markdown-organizer#quick-start) · [Exemplos fictícios](https://github.com/LuizChockt/legal-markdown-organizer/tree/main/examples) · [CI](https://github.com/LuizChockt/legal-markdown-organizer/actions/workflows/tests.yml)
 
@@ -56,6 +64,6 @@ Projetos anteriores de aprendizagem, evoluídos com interfaces responsivas, sepa
 - Documento comandos executáveis, escopo e limitações junto ao código.
 - Mantenho o processamento de documentos local e as dependências proporcionais ao problema.
 
-Meu foco atual é automação prática, ferramentas CLI e interfaces web claras.
+Meu foco atual é automação prática, ferramentas desktop e de linha de comando, e interfaces web claras.
 
 [Explorar repositórios](https://github.com/LuizChockt?tab=repositories) · [Manutenção do perfil](./docs/MAINTENANCE.md)
