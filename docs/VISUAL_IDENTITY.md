@@ -25,3 +25,11 @@ Sistema de identidade visual do perfil GitHub de Luiz Chockt e das ferramentas P
 5. Preferir imagens hospedadas no próprio GitHub a dependências externas.
 
 As imagens raster de alta fidelidade foram incorporadas diretamente aos repositórios como arquivos binários em `assets/identity/`.
+
+## Atualização visual (19/11/2026)
+
+- Banner principal: arte Octocat corrigida em WebP no modo escuro; arte da primeira série em WebP no modo claro.
+- Capas dos três projetos: WebP de alta fidelidade (1774 × 887 pixels), iguais às artes conceituais aprovadas e sem versões simplificadas nos READMEs.
+- As páginas em português mantêm os textos descritivos e navegação em português, embora as frases integradas às imagens de capa permaneçam em inglês.
+- As imagens WebP estão hospedadas nos próprios repositórios. Não há dependências externas a domínios GitHub.
+- Alguns números na ilustração de Markdown Link Auditor são fictícios e apenas demonstram uma possível interface de resultados; não representam execução real.

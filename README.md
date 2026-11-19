@@ -1,4 +1,8 @@
-<img src="./assets/identity/profile-octocat.webp" alt="Luiz Chockt — GitHub, Python, automation and developer tools." width="1200">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/identity/profile-octocat.webp">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/identity/profile-light-premium.webp">
+  <img src="./assets/identity/profile-octocat.webp" alt="Luiz Chockt — software development, Python and automation." width="1200">
+</picture>
 
 **Language:** English · [Português (Brasil)](./README.pt-BR.md)
 
@@ -14,13 +18,7 @@ I'm a Systems Analysis and Development graduate based in Brazil. My background i
 
 ### [ClipInbox](https://github.com/LuizChockt/clipinbox)
 
-<picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/LuizChockt/clipinbox/main/assets/cover-mobile-dark-en.svg">
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/LuizChockt/clipinbox/main/assets/cover-mobile-light-en.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LuizChockt/clipinbox/main/assets/identity/cover.webp">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LuizChockt/clipinbox/main/assets/identity/cover.webp">
-  <img src="https://raw.githubusercontent.com/LuizChockt/clipinbox/main/assets/identity/cover.webp" alt="ClipInbox — clipboard capture to Markdown" width="780">
-</picture>
+<img src="https://raw.githubusercontent.com/LuizChockt/clipinbox/main/assets/identity/cover-premium.webp" alt="ClipInbox — clipboard capture to Markdown" width="780">
 
 I built ClipInbox to save clipboard text to a local Markdown inbox using a global Windows shortcut. It also lets users write quick notes from the system tray without opening Obsidian.
 
@@ -30,13 +28,7 @@ I built ClipInbox to save clipboard text to a local Markdown inbox using a globa
 
 ### [Markdown Link Auditor](https://github.com/LuizChockt/markdown-link-auditor)
 
-<picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/LuizChockt/markdown-link-auditor/main/assets/cover-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/LuizChockt/markdown-link-auditor/main/assets/cover-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LuizChockt/markdown-link-auditor/main/assets/identity/cover.webp">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LuizChockt/markdown-link-auditor/main/assets/identity/cover.webp">
-  <img src="https://raw.githubusercontent.com/LuizChockt/markdown-link-auditor/main/assets/identity/cover.webp" alt="Markdown Link Auditor — audit local Markdown links and attachments" width="780">
-</picture>
+<img src="https://raw.githubusercontent.com/LuizChockt/markdown-link-auditor/main/assets/identity/cover-premium.webp" alt="Markdown Link Auditor — audit local Markdown links and attachments" width="780">
 
 I developed Markdown Link Auditor to find broken local references, missing attachments, ambiguous links and potential orphan notes in Markdown knowledge bases. It supports CommonMark and Obsidian wikilinks and generates deterministic text and JSON reports.
 
@@ -48,13 +40,7 @@ The scanner reads files without modifying them, resolves Unicode paths and respe
 
 ### [Legal Markdown Organizer](https://github.com/LuizChockt/legal-markdown-organizer)
 
-<picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/LuizChockt/legal-markdown-organizer/main/assets/cover-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/LuizChockt/legal-markdown-organizer/main/assets/cover-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LuizChockt/legal-markdown-organizer/main/assets/identity/cover.webp">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LuizChockt/legal-markdown-organizer/main/assets/identity/cover.webp">
-  <img src="https://raw.githubusercontent.com/LuizChockt/legal-markdown-organizer/main/assets/identity/cover.webp" alt="Legal Markdown Organizer — organize legal Markdown safely" width="780">
-</picture>
+<img src="https://raw.githubusercontent.com/LuizChockt/legal-markdown-organizer/main/assets/identity/cover-premium.webp" alt="Legal Markdown Organizer — organize legal Markdown safely" width="780">
 
 I built Legal Markdown Organizer to organize legal Markdown files using filename rules and a supported subset of front matter. It previews file moves with dry-run, preserves document bytes and avoids overwriting existing destinations.
 
