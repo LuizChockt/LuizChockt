@@ -8,13 +8,15 @@ from xml.etree import ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
 
 
-class Images(HTMLParser):
+class ProfileLinks(HTMLParser):
     def __init__(self):
         super().__init__()
         self.targets = []
 
     def handle_starttag(self, tag, attributes):
         attrs = dict(attributes)
+        if tag == "a" and attrs.get("href"):
+            self.targets.append(attrs["href"])
         if tag == "img":
             if not attrs.get("alt", "").strip():
                 raise ValueError("An image is missing alternative text")
@@ -33,10 +35,10 @@ def check_target(source, target):
 
 
 def main():
-    for name in ("README.md", "README.pt-BR.md", "docs/MAINTENANCE.md"):
+    for name in ("README.md", "README.pt-BR.md", "docs/MAINTENANCE.md", "docs/VISUAL_IDENTITY.md"):
         source = ROOT / name
         text = source.read_text(encoding="utf-8")
-        parser = Images()
+        parser = ProfileLinks()
         parser.feed(text)
         text = re.sub(r"```.*?```", "", text, flags=re.S)
         for target in parser.targets + re.findall(r"\]\(([^\s)]+)\)", text):

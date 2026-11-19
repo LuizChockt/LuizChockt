@@ -1,75 +1,46 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/identity/profile-octocat.webp">
   <source media="(prefers-color-scheme: light)" srcset="./assets/identity/profile-light-premium.webp">
-  <img src="./assets/identity/profile-octocat.webp" alt="Luiz Chockt — identidade de desenvolvimento de software, Python e automação." width="1200">
+  <img src="./assets/identity/profile-octocat.webp" alt="Luiz Chockt — Python, automação e ferramentas de desenvolvimento." width="1200">
 </picture>
 
-**Idioma:** [English](./README.md) · Português (Brasil)
-
-[Projetos](#projetos-em-destaque) · [Repositórios](https://github.com/LuizChockt?tab=repositories)
+[English](./README.md)
 
 # Olá, sou o Luiz.
 
-Desenvolvo **ferramentas Python para Markdown, organização de arquivos e automação**, além de projetos web com **JavaScript, HTML e CSS**.
-
-Sou formado em Análise e Desenvolvimento de Sistemas e moro no Brasil. Minha formação e experiência em Direito trazem problemas práticos para resolver com software: documentos, informações e trabalho repetitivo.
+Sou advogado e formado em Análise e Desenvolvimento de Sistemas. Desenvolvo ferramentas em Python para tarefas que encontro no trabalho com documentos e notas. Isso inclui guardar um trecho sem perder o fio da leitura, organizar uma pasta de peças jurídicas ou encontrar o destino de um link quebrado.
 
 ## Projetos em destaque
 
+<p>
+  <a href="https://github.com/LuizChockt/clipinbox"><img src="https://raw.githubusercontent.com/LuizChockt/clipinbox/main/assets/identity/cover-premium.webp" alt="ClipInbox" width="32%"></a>
+  <a href="https://github.com/LuizChockt/legal-markdown-organizer/blob/main/README.pt-BR.md"><img src="https://raw.githubusercontent.com/LuizChockt/legal-markdown-organizer/main/assets/identity/cover-premium.webp" alt="Legal Markdown Organizer" width="32%"></a>
+  <a href="https://github.com/LuizChockt/markdown-link-auditor/blob/main/README.pt-BR.md"><img src="https://raw.githubusercontent.com/LuizChockt/markdown-link-auditor/main/assets/identity/cover-premium.webp" alt="Markdown Link Auditor" width="32%"></a>
+</p>
+
 ### [ClipInbox](https://github.com/LuizChockt/clipinbox)
 
-<img src="https://raw.githubusercontent.com/LuizChockt/clipinbox/main/assets/identity/cover-premium.webp" alt="ClipInbox — captura da área de transferência para Markdown" width="780">
+Copia um trecho, pressiona **Ctrl+Alt+M** e continua a leitura. O ClipInbox acrescenta o texto e o horário a um arquivo Markdown local. Também dá para escrever uma nota pela bandeja do Windows, mesmo com o Obsidian fechado.
 
-Criei o ClipInbox para salvar textos da área de transferência em uma caixa de entrada Markdown local, por meio de um atalho global no Windows. Ele também permite registrar notas rápidas pela bandeja do sistema, sem abrir o Obsidian.
+[Baixar para Windows](https://github.com/LuizChockt/clipinbox/releases/latest) · [Ver um exemplo de anotação](https://github.com/LuizChockt/clipinbox#capturar-um-texto)
 
-**Python · Tkinter · Win32 · pytest · GitHub Actions**
+### [Legal Markdown Organizer](https://github.com/LuizChockt/legal-markdown-organizer/blob/main/README.pt-BR.md)
 
-[Download para Windows](https://github.com/LuizChockt/clipinbox/releases/tag/v0.1.0) · [CI](https://github.com/LuizChockt/clipinbox/actions/workflows/ci-release.yml)
+Confere para onde cada documento vai antes de mover os arquivos. Por exemplo, `despacho.md` vai para `Despachos/`. Ao desfazer uma execução, o organizador restaura apenas os arquivos que ainda correspondem ao registro da movimentação.
 
-### [Markdown Link Auditor](https://github.com/LuizChockt/markdown-link-auditor)
+[Ver uma simulação](https://github.com/LuizChockt/legal-markdown-organizer/blob/main/docs/demo.txt) · [Experimentar no terminal](https://github.com/LuizChockt/legal-markdown-organizer/blob/main/README.pt-BR.md#início-rápido)
 
-<img src="https://raw.githubusercontent.com/LuizChockt/markdown-link-auditor/main/assets/identity/cover-premium.webp" alt="Markdown Link Auditor — auditoria de links e anexos em Markdown" width="780">
+### [Markdown Link Auditor](https://github.com/LuizChockt/markdown-link-auditor/blob/main/README.pt-BR.md)
 
-Desenvolvi o Markdown Link Auditor para identificar referências locais quebradas, anexos ausentes, links ambíguos e possíveis notas órfãs em bases de conhecimento Markdown. Ele reconhece links CommonMark e wikilinks do Obsidian e gera relatórios determinísticos em texto e JSON.
+Localiza links quebrados e anexos ausentes em pastas Markdown e vaults do Obsidian. Se duas notas têm o mesmo nome, o relatório mostra os dois caminhos para que tu possas escolher o destino correto. A auditoria mantém os arquivos intactos.
 
-**Python · markdown-it-py · pytest · GitHub Actions**
+[Abrir o relatório de exemplo](https://github.com/LuizChockt/markdown-link-auditor/blob/main/examples/reports/sample-report.txt) · [Auditar uma pasta](https://github.com/LuizChockt/markdown-link-auditor/blob/main/README.pt-BR.md#início-rápido)
 
-A análise não altera os arquivos, resolve caminhos com caracteres Unicode e respeita limites explícitos de acesso ao sistema de arquivos. O programa contabiliza URLs externas sem realizar consultas HTTP.
+## Projetos web
 
-[Código e início rápido](https://github.com/LuizChockt/markdown-link-auditor#quick-start) · [Relatório de exemplo](https://github.com/LuizChockt/markdown-link-auditor/blob/main/examples/reports/sample-report.txt) · [CI](https://github.com/LuizChockt/markdown-link-auditor/actions/workflows/tests.yml)
+Duas ferramentas que comecei nos estudos de JavaScript e retomei com interfaces responsivas e testes da lógica de cálculo.
 
-### [Legal Markdown Organizer](https://github.com/LuizChockt/legal-markdown-organizer)
+- **[Calculadora JavaScript](https://luizchockt.github.io/CalculadoraAprendizadoJS/)** resolve expressões com parênteses e guarda os últimos cinco resultados. [Código](https://github.com/LuizChockt/CalculadoraAprendizadoJS)
+- **[Calculadora de Média Escolar](https://luizchockt.github.io/Media-Escolar-Calc/)** calcula médias ponderadas com critérios ajustáveis de aprovação e recuperação. [Código](https://github.com/LuizChockt/Media-Escolar-Calc)
 
-<img src="https://raw.githubusercontent.com/LuizChockt/legal-markdown-organizer/main/assets/identity/cover-premium.webp" alt="Legal Markdown Organizer — organização segura de documentos jurídicos em Markdown" width="780">
-
-Criei o Legal Markdown Organizer para organizar arquivos jurídicos em Markdown com regras de nomenclatura e um subconjunto de metadados front matter. Ele permite simular movimentações com dry-run, preserva os bytes dos documentos e evita sobrescrever destinos existentes.
-
-**Biblioteca padrão Python · pytest · GitHub Actions**
-
-Também implementei o histórico local de execuções e a prévia de desfazer a última execução elegível. A operação só restaura documentos que não foram modificados e recusa sobrescrever arquivos existentes.
-
-[Código e início rápido](https://github.com/LuizChockt/legal-markdown-organizer#quick-start) · [Exemplos fictícios](https://github.com/LuizChockt/legal-markdown-organizer/tree/main/examples) · [CI](https://github.com/LuizChockt/legal-markdown-organizer/actions/workflows/tests.yml)
-
-### Projetos web
-
-Retomei projetos anteriores de aprendizagem e os aprimorei com interfaces responsivas, separação da lógica da aplicação e testes com Node.js.
-
-- **[Calculadora JavaScript](https://github.com/LuizChockt/CalculadoraAprendizadoJS)** — parser aritmético, entrada por teclado e histórico da sessão. [Demonstração](https://luizchockt.github.io/CalculadoraAprendizadoJS/).
-- **[Calculadora de Média Escolar](https://github.com/LuizChockt/Media-Escolar-Calc)** — médias ponderadas, validação de entradas e critérios configuráveis. [Demonstração](https://luizchockt.github.io/Media-Escolar-Calc/).
-
-## Ferramentas que utilizo
-
-**Python · JavaScript · HTML · CSS · Git · Markdown**
-
-Uso **pytest** para testar programas Python, **o executor de testes do Node.js** para a lógica dos projetos web e **GitHub Actions** para integração contínua.
-
-## Como desenvolvo
-
-- Separo a interpretação de dados, as regras e as operações no sistema de arquivos para testar cada parte independentemente.
-- Testo os pontos de entrada reais das ferramentas de linha de comando, os casos extremos e o comportamento do sistema de arquivos com dados fictícios.
-- Documento os comandos executáveis, o escopo e as limitações junto ao código.
-- Mantenho o processamento de documentos local e as dependências proporcionais ao problema.
-
-Meu foco atual é automação prática, ferramentas desktop e de linha de comando, e interfaces web claras.
-
-[Explorar repositórios](https://github.com/LuizChockt?tab=repositories) · [Manutenção do perfil](./docs/MAINTENANCE.md)
+[Todos os repositórios](https://github.com/LuizChockt?tab=repositories)

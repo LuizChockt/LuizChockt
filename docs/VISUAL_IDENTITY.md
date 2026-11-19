@@ -1,35 +1,22 @@
-# Human + Code — identidade visual
+# Identidade visual do portfólio
 
-Sistema de identidade visual do perfil GitHub de Luiz Chockt e das ferramentas Python.
+Os READMEs em inglês e português usam a mesma arte. Os nomes dos projetos, as descrições e os links de ação também aparecem como texto, inclusive no celular.
 
-## Paleta
+## Imagens em uso
 
-- Modo escuro: `#031320`, `#0B2B43`, `#F7FBFF`, ciano `#27D8FF`.
-- Modo claro: `#F7FBFF`, `#E0F2FB`, `#102A41`, azul `#007DB5`.
+| Uso | Arquivo |
+| --- | --- |
+| Banner do perfil no tema escuro e imagem padrão | [profile-octocat.webp](../assets/identity/profile-octocat.webp) |
+| Banner do perfil no tema claro | [profile-light-premium.webp](../assets/identity/profile-light-premium.webp) |
+| Capas de ClipInbox, Legal Markdown Organizer e Markdown Link Auditor | `assets/identity/cover-premium.webp` no respectivo repositório |
 
-## Escolhas por contexto
+No perfil, as três capas formam uma galeria com links para os projetos. Em português, os links abrem a documentação traduzida quando disponível. Cada repositório também exibe a própria capa em tamanho maior.
 
-- **README do perfil em inglês:** banner WebP de alta fidelidade para tema claro/escuro. O original PNG foi otimizado para WebP, preservando a arte aprovada e reduzindo o peso.
-- **Projetos em destaque do perfil em inglês:** capas WebP hospedadas nos respectivos repositórios, com URLs permanentes do GitHub.
-- **READMEs de Markdown Link Auditor e Legal Markdown Organizer em inglês:** capas WebP de alta qualidade.
-- **ClipInbox e todos os READMEs em português:** manter SVGs com texto em português para não misturar idiomas.
-- **Celulares:** manter SVGs otimizados para telas pequenas.
-- **Foto de perfil:** a imagem de usuário é configurada em https://github.com/settings/profile e não pode ser alterada pela API do repositório.
+As artes usam azul e ciano, com fundos que variam conforme a composição. Os textos incorporados às imagens estão em inglês. Os números ilustrados na capa do auditor são decorativos. O relatório reproduzível está em `examples/reports/sample-report.txt` no projeto.
 
-## Regras de manutenção
+## Ao atualizar a apresentação
 
-1. Usar primeira pessoa nas apresentações pessoais e linguagem objetiva nas descrições dos softwares.
-2. Nunca incluir números de auditoria ou métricas fictícias apenas como decoração.
-3. Atualizar conteúdo em ambos os idiomas quando a mudança afetar descrição ou funcionalidade.
-4. Os SVGs continuam versionados para adaptação responsiva e traduções.
-5. Preferir imagens hospedadas no próprio GitHub a dependências externas.
-
-As imagens raster de alta fidelidade foram incorporadas diretamente aos repositórios como arquivos binários em `assets/identity/`.
-
-## Atualização visual (19/11/2026)
-
-- Banner principal: arte Octocat corrigida em WebP no modo escuro; arte da primeira série em WebP no modo claro.
-- Capas dos três projetos: WebP de alta fidelidade (1774 × 887 pixels), iguais às artes conceituais aprovadas e sem versões simplificadas nos READMEs.
-- As páginas em português mantêm os textos descritivos e navegação em português, embora as frases integradas às imagens de capa permaneçam em inglês.
-- As imagens WebP estão hospedadas nos próprios repositórios. Não há dependências externas a domínios GitHub.
-- Alguns números na ilustração de Markdown Link Auditor são fictícios e apenas demonstram uma possível interface de resultados; não representam execução real.
+- Mantém a mesma ordem de projetos nas duas versões do perfil.
+- Confere se a capa e o nome de cada projeto levam ao destino certo.
+- Verifica a leitura em tela estreita e nos temas claro e escuro.
+- Os SVGs de versões anteriores estão em `assets/`. Os banners atuais usam os arquivos WebP indicados acima.

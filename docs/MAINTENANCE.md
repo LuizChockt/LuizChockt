@@ -14,41 +14,12 @@ When a project changes:
 
 ## Visual assets
 
-The editable sources are SVG files in [assets](../assets). They use system fonts,
-no third-party logos, scripts, embedded images, remote fonts or animation.
-`banner-dark.svg` and `banner-light.svg`, plus their compact mobile variants,
-are selected by a `picture` element;
-the light banner is the fallback. Keep the alternative text descriptive.
+Both profile READMEs use the WebP banners in [assets/identity](../assets/identity).
+The three linked project covers live in the respective project repositories.
+See [the visual identity guide](./VISUAL_IDENTITY.md) for the active files.
+After editing a banner or cover link, check both languages on a narrow screen
+and in light and dark themes. Keep the project name and action links in text.
 
-| Role | Dark | Light |
-| --- | --- | --- |
-| Background | `#11191D` | `#F4F6F2` |
-| Main text | `#F2F5F3` | `#15221E` |
-| Secondary text | `#AABCB8` | `#4B6258` |
-| Accent | `#D4FF63` | `#426600` |
-
-The LC mark and short double rail are the shared graphic signature. Project covers
-use the same spacing and colors, with different motifs for links and categories.
-Detailed text lives in Markdown so the profile remains useful if images do not load.
-
-The existing robot avatar remains the primary recommendation. `monogram.svg` and
-`avatar-monogram.png` are optional alternatives; adding them here does not change
-the account avatar.
-
-## Optional PNG exports
-
-SVGs are the editable sources. If a PNG needs to be refreshed, install CairoSVG in a
-temporary development environment and run, for example:
-
-```bash
-python -m pip install cairosvg
-python -m cairosvg assets/monogram.svg -o assets/avatar-monogram.png
-```
-
-Project social previews use `assets/social-preview.svg`, exported to a 1280 × 640
-PNG. Upload the PNG through the repository's Settings → General → Social preview.
-The file in the repository alone does not configure that setting.
-
-Account bio, pinned repositories, social previews and security settings are managed
-through GitHub's settings separately from these files. Review monthly dependency
-update pull requests; merge only after the relevant checks pass.
+Account bio, pinned repositories and repository descriptions are managed
+separately on GitHub. The two web demos also have GitHub Pages URLs in their
+repository About sections.
