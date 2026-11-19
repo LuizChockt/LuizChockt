@@ -6,7 +6,7 @@
   <img src="./assets/banner-light-pt-BR.svg" alt="Luiz Chockt — ferramentas Python, automação, aplicações de linha de comando e desenvolvimento web." width="1200">
 </picture>
 
-**Idioma:** **Idioma:** [English](./README.md) · Português (Brasil) · Português (Brasil)
+**Idioma:** [English](./README.md) · Português (Brasil)
 
 [Projetos](#projetos-em-destaque) · [Repositórios](https://github.com/LuizChockt?tab=repositories)
 
@@ -20,6 +20,14 @@ Sou formado em Análise e Desenvolvimento de Sistemas e moro no Brasil. Minha fo
 
 ### [ClipInbox](https://github.com/LuizChockt/clipinbox)
 
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/LuizChockt/clipinbox/main/assets/cover-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/LuizChockt/clipinbox/main/assets/cover-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LuizChockt/clipinbox/main/assets/cover-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LuizChockt/clipinbox/main/assets/cover-light.svg">
+  <img src="https://raw.githubusercontent.com/LuizChockt/clipinbox/main/assets/cover-light.svg" alt="ClipInbox — captura da área de transferência para Markdown" width="780">
+</picture>
+
 Criei o ClipInbox para salvar textos da área de transferência em uma caixa de entrada Markdown local, por meio de um atalho global no Windows. Ele também permite registrar notas rápidas pela bandeja do sistema, sem abrir o Obsidian.
 
 **Python · Tkinter · Win32 · pytest · GitHub Actions**
@@ -27,6 +35,14 @@ Criei o ClipInbox para salvar textos da área de transferência em uma caixa de 
 [Download para Windows](https://github.com/LuizChockt/clipinbox/releases/tag/v0.1.0) · [CI](https://github.com/LuizChockt/clipinbox/actions/workflows/ci-release.yml)
 
 ### [Markdown Link Auditor](https://github.com/LuizChockt/markdown-link-auditor)
+
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/LuizChockt/markdown-link-auditor/main/assets/cover-mobile-dark-pt-BR.svg">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/LuizChockt/markdown-link-auditor/main/assets/cover-mobile-light-pt-BR.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LuizChockt/markdown-link-auditor/main/assets/cover-dark-pt-BR.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LuizChockt/markdown-link-auditor/main/assets/cover-light-pt-BR.svg">
+  <img src="https://raw.githubusercontent.com/LuizChockt/markdown-link-auditor/main/assets/cover-light-pt-BR.svg" alt="Markdown Link Auditor — auditoria de links e anexos em Markdown" width="780">
+</picture>
 
 Desenvolvi o Markdown Link Auditor para identificar referências locais quebradas, anexos ausentes, links ambíguos e possíveis notas órfãs em bases de conhecimento Markdown. Ele reconhece links CommonMark e wikilinks do Obsidian e gera relatórios determinísticos em texto e JSON.
 
@@ -37,6 +53,14 @@ A análise não altera os arquivos, resolve caminhos com caracteres Unicode e re
 [Código e início rápido](https://github.com/LuizChockt/markdown-link-auditor#quick-start) · [Relatório de exemplo](https://github.com/LuizChockt/markdown-link-auditor/blob/main/examples/reports/sample-report.txt) · [CI](https://github.com/LuizChockt/markdown-link-auditor/actions/workflows/tests.yml)
 
 ### [Legal Markdown Organizer](https://github.com/LuizChockt/legal-markdown-organizer)
+
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/LuizChockt/legal-markdown-organizer/main/assets/cover-mobile-dark-pt-BR.svg">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/LuizChockt/legal-markdown-organizer/main/assets/cover-mobile-light-pt-BR.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LuizChockt/legal-markdown-organizer/main/assets/cover-dark-pt-BR.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LuizChockt/legal-markdown-organizer/main/assets/cover-light-pt-BR.svg">
+  <img src="https://raw.githubusercontent.com/LuizChockt/legal-markdown-organizer/main/assets/cover-light-pt-BR.svg" alt="Legal Markdown Organizer — organização segura de documentos jurídicos em Markdown" width="780">
+</picture>
 
 Criei o Legal Markdown Organizer para organizar arquivos jurídicos em Markdown com regras de nomenclatura e um subconjunto de metadados front matter. Ele permite simular movimentações com dry-run, preserva os bytes dos documentos e evita sobrescrever destinos existentes.
 
