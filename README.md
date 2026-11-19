@@ -6,7 +6,9 @@
   <img src="./assets/banner-light.svg" alt="Luiz Chockt — Python tools, automation, command-line tools and web development." width="1200">
 </picture>
 
-[Português brasileiro](./README.pt-BR.md) · [Projects](#selected-projects) · [Repositories](https://github.com/LuizChockt?tab=repositories)
+**Language:** English · [Português (Brasil)](./README.pt-BR.md)
+
+[Projects](#selected-projects) · [Repositories](https://github.com/LuizChockt?tab=repositories)
 
 # Hi, I'm Luiz.
 
