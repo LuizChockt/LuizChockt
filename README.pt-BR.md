@@ -6,7 +6,9 @@
   <img src="./assets/banner-light.svg" alt="Luiz Chockt — ferramentas Python, automação, aplicações de linha de comando e desenvolvimento web." width="1200">
 </picture>
 
-[English](./README.md) · [Projetos](#projetos-em-destaque) · [Repositórios](https://github.com/LuizChockt?tab=repositories)
+**Idioma:** [English](./README.md) · Português (Brasil)
+
+[Projetos](#projetos-em-destaque) · [Repositórios](https://github.com/LuizChockt?tab=repositories)
 
 # Olá, sou o Luiz.
 
