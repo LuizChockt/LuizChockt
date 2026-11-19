@@ -1,12 +1,12 @@
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/banner-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="./assets/banner-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
-  <img src="./assets/banner-light.svg" alt="Luiz Chockt — ferramentas Python, automação, aplicações de linha de comando e desenvolvimento web." width="1200">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/banner-mobile-dark-pt-BR.svg">
+  <source media="(max-width: 600px)" srcset="./assets/banner-mobile-light-pt-BR.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark-pt-BR.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light-pt-BR.svg">
+  <img src="./assets/banner-light-pt-BR.svg" alt="Luiz Chockt — ferramentas Python, automação, aplicações de linha de comando e desenvolvimento web." width="1200">
 </picture>
 
-**Idioma:** [English](./README.md) · Português (Brasil)
+**Idioma:** **Idioma:** [English](./README.md) · Português (Brasil) · Português (Brasil)
 
 [Projetos](#projetos-em-destaque) · [Repositórios](https://github.com/LuizChockt?tab=repositories)
 
