@@ -18,17 +18,31 @@ I'm a Brazilian lawyer with a degree in Systems Analysis and Development. I buil
   <a href="https://github.com/LuizChockt/markdown-link-auditor"><img src="https://raw.githubusercontent.com/LuizChockt/markdown-link-auditor/main/assets/identity/cover-premium.webp" alt="Markdown Link Auditor" width="32%"></a>
 </p>
 
+## Projects
+
+<a href="https://github.com/LuizChockt/clipinbox">
+  <img src="https://raw.githubusercontent.com/LuizChockt/clipinbox/main/assets/identity/cover-premium.webp" alt="ClipInbox — project cover" width="100%">
+</a>
+
 ### [ClipInbox](https://github.com/LuizChockt/clipinbox)
 
 Copy a passage, press **Ctrl+Alt+M** and keep reading. ClipInbox appends the text and a timestamp to a local Markdown file. You can also write a quick note from the Windows system tray, even with Obsidian closed.
 
 [Download for Windows](https://github.com/LuizChockt/clipinbox/releases/latest) · [See an example entry](https://github.com/LuizChockt/clipinbox#capturar-um-texto)
 
+<a href="https://github.com/LuizChockt/legal-markdown-organizer">
+  <img src="https://raw.githubusercontent.com/LuizChockt/legal-markdown-organizer/main/assets/identity/cover-premium.webp" alt="Legal Markdown Organizer — project cover" width="100%">
+</a>
+
 ### [Legal Markdown Organizer](https://github.com/LuizChockt/legal-markdown-organizer)
 
 Preview where each legal document will go before moving it. For example, `despacho.md` goes into `Despachos/`. When you undo a run, the organizer restores only files that still match its record of the move.
 
 [See a dry run](https://github.com/LuizChockt/legal-markdown-organizer/blob/main/docs/demo.txt) · [Try the CLI](https://github.com/LuizChockt/legal-markdown-organizer#quick-start)
+
+<a href="https://github.com/LuizChockt/markdown-link-auditor">
+  <img src="https://raw.githubusercontent.com/LuizChockt/markdown-link-auditor/main/assets/identity/cover-premium.webp" alt="Markdown Link Auditor — project cover" width="100%">
+</a>
 
 ### [Markdown Link Auditor](https://github.com/LuizChockt/markdown-link-auditor)
 
