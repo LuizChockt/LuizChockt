@@ -20,7 +20,7 @@ I'm a Systems Analysis and Development graduate based in Brazil. My background i
 
 ### [ClipInbox](https://github.com/LuizChockt/clipinbox)
 
-Save clipboard text to a local Markdown inbox using a global Windows shortcut. Write quick notes from the system tray without opening Obsidian.
+I built ClipInbox to save clipboard text to a local Markdown inbox using a global Windows shortcut. It also lets users write quick notes from the system tray without opening Obsidian.
 
 **Python · Tkinter · Win32 · pytest · GitHub Actions**
 
@@ -28,27 +28,27 @@ Save clipboard text to a local Markdown inbox using a global Windows shortcut. W
 
 ### [Markdown Link Auditor](https://github.com/LuizChockt/markdown-link-auditor)
 
-Find broken local references, missing attachments, ambiguous links and potential orphan notes in a Markdown knowledge base. Supports CommonMark and Obsidian wikilinks, with deterministic text and JSON reports.
+I developed Markdown Link Auditor to find broken local references, missing attachments, ambiguous links and potential orphan notes in Markdown knowledge bases. It supports CommonMark and Obsidian wikilinks and generates deterministic text and JSON reports.
 
 **Python · markdown-it-py · pytest · GitHub Actions**
 
-Read-only scanning, Unicode-aware resolution and explicit filesystem boundaries. External URLs are counted, without HTTP checks.
+The scanner reads files without modifying them, resolves Unicode paths and respects explicit filesystem boundaries. It counts external URLs without making HTTP requests.
 
 [Code & quick start](https://github.com/LuizChockt/markdown-link-auditor#quick-start) · [Sample report](https://github.com/LuizChockt/markdown-link-auditor/blob/main/examples/reports/sample-report.txt) · [CI](https://github.com/LuizChockt/markdown-link-auditor/actions/workflows/tests.yml)
 
 ### [Legal Markdown Organizer](https://github.com/LuizChockt/legal-markdown-organizer)
 
-Organize legal Markdown files using filename rules and a supported subset of front matter. Preview moves with dry-run, preserve document bytes and avoid overwriting existing destinations.
+I built Legal Markdown Organizer to organize legal Markdown files using filename rules and a supported subset of front matter. It previews file moves with dry-run, preserves document bytes and avoids overwriting existing destinations.
 
 **Python standard library · pytest · GitHub Actions**
 
-Review local execution history and preview the undo of the latest eligible run. Undo restores unchanged documents and refuses to overwrite existing files.
+I also added local execution history and an undo preview for the latest eligible run. Undo restores only unchanged documents and refuses to overwrite existing files.
 
 [Code & quick start](https://github.com/LuizChockt/legal-markdown-organizer#quick-start) · [Fictional examples](https://github.com/LuizChockt/legal-markdown-organizer/tree/main/examples) · [CI](https://github.com/LuizChockt/legal-markdown-organizer/actions/workflows/tests.yml)
 
 ### Web projects
 
-Earlier learning projects, developed further with responsive interfaces, separated application logic and Node.js tests.
+I revisited earlier learning projects and improved them with responsive interfaces, a clearer separation of application logic and Node.js tests.
 
 - **[JavaScript Calculator](https://github.com/LuizChockt/CalculadoraAprendizadoJS)** — arithmetic parser, keyboard input and session history. [Live demo](https://luizchockt.github.io/CalculadoraAprendizadoJS/).
 - **[School Grade Calculator](https://github.com/LuizChockt/Media-Escolar-Calc)** — weighted averages, input validation and configurable thresholds. [Live demo](https://luizchockt.github.io/Media-Escolar-Calc/).
@@ -57,15 +57,15 @@ Earlier learning projects, developed further with responsive interfaces, separat
 
 **Python · JavaScript · HTML · CSS · Git · Markdown**
 
-**pytest** for Python behavior tests, **Node.js's test runner** for web logic, and **GitHub Actions** for continuous integration.
+I use **pytest** for Python tests, **Node.js's test runner** for web logic, and **GitHub Actions** for continuous integration.
 
 ## How I build
 
-- Separate parsing, rules and filesystem operations so each can be tested.
-- Exercise real CLI entry points, edge cases and filesystem behavior with synthetic fixtures.
-- Document working commands, scope and limitations alongside the code.
-- Keep document processing local and dependencies proportional to the task.
+- I separate parsing, rules and filesystem operations so I can test each part independently.
+- I test real CLI entry points, edge cases and filesystem behavior with synthetic fixtures.
+- I document working commands, scope and limitations alongside the code.
+- I keep document processing local and dependencies proportional to the task.
 
-My current focus is practical automation, desktop and command-line tools, and clear web interfaces.
+I currently focus on practical automation, desktop and command-line tools, and clear web interfaces.
 
 [Browse repositories](https://github.com/LuizChockt?tab=repositories) · [Background & profile maintenance](./docs/MAINTENANCE.md)
