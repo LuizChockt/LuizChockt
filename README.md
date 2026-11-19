@@ -20,6 +20,14 @@ I'm a Systems Analysis and Development graduate based in Brazil. My background i
 
 ### [ClipInbox](https://github.com/LuizChockt/clipinbox)
 
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/LuizChockt/clipinbox/main/assets/cover-mobile-dark-en.svg">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/LuizChockt/clipinbox/main/assets/cover-mobile-light-en.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LuizChockt/clipinbox/main/assets/cover-dark-en.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LuizChockt/clipinbox/main/assets/cover-light-en.svg">
+  <img src="https://raw.githubusercontent.com/LuizChockt/clipinbox/main/assets/cover-light-en.svg" alt="ClipInbox — clipboard capture to Markdown" width="780">
+</picture>
+
 I built ClipInbox to save clipboard text to a local Markdown inbox using a global Windows shortcut. It also lets users write quick notes from the system tray without opening Obsidian.
 
 **Python · Tkinter · Win32 · pytest · GitHub Actions**
@@ -27,6 +35,14 @@ I built ClipInbox to save clipboard text to a local Markdown inbox using a globa
 [Windows download](https://github.com/LuizChockt/clipinbox/releases/tag/v0.1.0) · [CI](https://github.com/LuizChockt/clipinbox/actions/workflows/ci-release.yml)
 
 ### [Markdown Link Auditor](https://github.com/LuizChockt/markdown-link-auditor)
+
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/LuizChockt/markdown-link-auditor/main/assets/cover-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/LuizChockt/markdown-link-auditor/main/assets/cover-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LuizChockt/markdown-link-auditor/main/assets/cover-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LuizChockt/markdown-link-auditor/main/assets/cover-light.svg">
+  <img src="https://raw.githubusercontent.com/LuizChockt/markdown-link-auditor/main/assets/cover-light.svg" alt="Markdown Link Auditor — audit local Markdown links and attachments" width="780">
+</picture>
 
 I developed Markdown Link Auditor to find broken local references, missing attachments, ambiguous links and potential orphan notes in Markdown knowledge bases. It supports CommonMark and Obsidian wikilinks and generates deterministic text and JSON reports.
 
@@ -37,6 +53,14 @@ The scanner reads files without modifying them, resolves Unicode paths and respe
 [Code & quick start](https://github.com/LuizChockt/markdown-link-auditor#quick-start) · [Sample report](https://github.com/LuizChockt/markdown-link-auditor/blob/main/examples/reports/sample-report.txt) · [CI](https://github.com/LuizChockt/markdown-link-auditor/actions/workflows/tests.yml)
 
 ### [Legal Markdown Organizer](https://github.com/LuizChockt/legal-markdown-organizer)
+
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/LuizChockt/legal-markdown-organizer/main/assets/cover-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/LuizChockt/legal-markdown-organizer/main/assets/cover-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LuizChockt/legal-markdown-organizer/main/assets/cover-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LuizChockt/legal-markdown-organizer/main/assets/cover-light.svg">
+  <img src="https://raw.githubusercontent.com/LuizChockt/legal-markdown-organizer/main/assets/cover-light.svg" alt="Legal Markdown Organizer — organize legal Markdown safely" width="780">
+</picture>
 
 I built Legal Markdown Organizer to organize legal Markdown files using filename rules and a supported subset of front matter. It previews file moves with dry-run, preserves document bytes and avoids overwriting existing destinations.
 
