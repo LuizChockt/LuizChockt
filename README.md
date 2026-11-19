@@ -1,10 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/banner-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="./assets/banner-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/identity/profile-dark.webp">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/identity/profile-light.webp">
-  <img src="./assets/identity/profile-light.webp" alt="Luiz Chockt — Python tools, automation, command-line tools and web development." width="1200">
-</picture>
+<img src="./assets/identity/profile-octocat.webp" alt="Luiz Chockt — GitHub, Python, automation and developer tools." width="1200">
 
 **Language:** English · [Português (Brasil)](./README.pt-BR.md)
 
