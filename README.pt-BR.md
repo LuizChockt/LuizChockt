@@ -18,17 +18,31 @@ Sou advogado e formado em Análise e Desenvolvimento de Sistemas. Desenvolvo fer
   <a href="https://github.com/LuizChockt/markdown-link-auditor/blob/main/README.pt-BR.md"><img src="https://raw.githubusercontent.com/LuizChockt/markdown-link-auditor/main/assets/identity/cover-premium.webp" alt="Markdown Link Auditor" width="32%"></a>
 </p>
 
+## Projetos
+
+<a href="https://github.com/LuizChockt/clipinbox">
+  <img src="https://raw.githubusercontent.com/LuizChockt/clipinbox/main/assets/identity/cover-premium.webp" alt="ClipInbox — aplicativo de captura de texto para Markdown" width="100%">
+</a>
+
 ### [ClipInbox](https://github.com/LuizChockt/clipinbox)
 
 Copia um trecho, pressiona **Ctrl+Alt+M** e continua a leitura. O ClipInbox acrescenta o texto e o horário a um arquivo Markdown local. Também dá para escrever uma nota pela bandeja do Windows, mesmo com o Obsidian fechado.
 
 [Baixar para Windows](https://github.com/LuizChockt/clipinbox/releases/latest) · [Ver um exemplo de anotação](https://github.com/LuizChockt/clipinbox#capturar-um-texto)
 
+<a href="https://github.com/LuizChockt/legal-markdown-organizer/blob/main/README.pt-BR.md">
+  <img src="https://raw.githubusercontent.com/LuizChockt/legal-markdown-organizer/main/assets/identity/cover-premium.webp" alt="Legal Markdown Organizer — organização segura de documentos Markdown" width="100%">
+</a>
+
 ### [Legal Markdown Organizer](https://github.com/LuizChockt/legal-markdown-organizer/blob/main/README.pt-BR.md)
 
 Confere para onde cada documento vai antes de mover os arquivos. Por exemplo, `despacho.md` vai para `Despachos/`. Ao desfazer uma execução, o organizador restaura apenas os arquivos que ainda correspondem ao registro da movimentação.
 
 [Ver uma simulação](https://github.com/LuizChockt/legal-markdown-organizer/blob/main/docs/demo.txt) · [Experimentar no terminal](https://github.com/LuizChockt/legal-markdown-organizer/blob/main/README.pt-BR.md#início-rápido)
+
+<a href="https://github.com/LuizChockt/markdown-link-auditor/blob/main/README.pt-BR.md">
+  <img src="https://raw.githubusercontent.com/LuizChockt/markdown-link-auditor/main/assets/identity/cover-premium.webp" alt="Markdown Link Auditor — auditoria de links em arquivos Markdown" width="100%">
+</a>
 
 ### [Markdown Link Auditor](https://github.com/LuizChockt/markdown-link-auditor/blob/main/README.pt-BR.md)
 
